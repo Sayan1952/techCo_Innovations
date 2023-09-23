@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import 'swiper/css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeft,faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+
 
 const HomePage = () => {
+
     return (
         <div>
             <div className="flex bg-[#151C34] pt-10 pl-10 gap-2">
@@ -65,8 +75,88 @@ const HomePage = () => {
                     />
                 </div>
             </div>
-            <div className="flex-1 bg-[#151C34] pt-10 pl-10">
+            <div className="flex-1 bg-[#151C34] pt-10 pl-10 pb-16">
                 <h1 className='text-5xl font-semibold text-[#2BAD81] pb-8'>Client Testimonials</h1>
+                <Swiper
+                    slidesPerView={3}
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        <div className='text-center bg-[#2C2946] p-10'>
+                            <div className='flex'>
+                                <FontAwesomeIcon icon={faQuoteLeft} style={{ color: "#2BAD81", }} />
+                            </div>
+
+                            <p className='text-white text-left'>Lorem ipsum dolor sit amet consectetur adipisienim numquam hic quas, assumenda, pariatur mollitia maiores ducimus? Eveniet aut error obcaecati, quis quod tempora! Suscipit totam culpa, est beatae vitae corrupti neque itaque eveniet, necessitatibus, recusandae aliquam debitis provident libero tenetur maiores veritatis quasi nam veniam.</p>
+                            <div className='flex justify-end'>
+                                <FontAwesomeIcon icon={faQuoteRight} style={{ color: "#2BAD81", }} />
+                            </div>
+                            <div className='flex items-center text-left'>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" className='rounded-full w-14 h-14' />
+                                <p className='pl-2 text-white'><span className='text-[#2BAD81]'>Alister Cook</span><br /> COO at Riverine</p>
+                            </div>
+
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className='text-center bg-[#2C2946] p-10'>
+                            <div className='flex'>
+                                <FontAwesomeIcon icon={faQuoteLeft} style={{ color: "#2BAD81", }} />
+                            </div>
+
+                            <p className='text-white text-left'>Lorem ipsum dolor sit amet consectetur adipisienim numquam hic quas, assumenda, pariatur mollitia maiores ducimus? Eveniet aut error obcaecati, quis quod tempora! Suscipit totam culpa, est beatae vitae corrupti neque itaque eveniet, necessitatibus, recusandae aliquam debitis provident libero tenetur maiores veritatis quasi nam veniam.</p>
+                            <div className='flex justify-end'>
+                                <FontAwesomeIcon icon={faQuoteRight} style={{ color: "#2BAD81", }} />
+                            </div>
+                            <div className='flex items-center text-left'>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" className='rounded-full w-14 h-14' />
+                                <p className='pl-2 text-white'><span className='text-[#2BAD81]'>Alister Cook</span><br /> COO at Riverine</p>
+                            </div>
+
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className='text-center bg-[#2C2946] p-10'>
+                            <div className='flex'>
+                                <FontAwesomeIcon icon={faQuoteLeft} style={{ color: "#2BAD81", }} />
+                            </div>
+
+                            <p className='text-white text-left'>Lorem ipsum dolor sit amet consectetur adipisienim numquam hic quas, assumenda, pariatur mollitia maiores ducimus? Eveniet aut error obcaecati, quis quod tempora! Suscipit totam culpa, est beatae vitae corrupti neque itaque eveniet, necessitatibus, recusandae aliquam debitis provident libero tenetur maiores veritatis quasi nam veniam.</p>
+                            <div className='flex justify-end'>
+                                <FontAwesomeIcon icon={faQuoteRight} style={{ color: "#2BAD81", }} />
+                            </div>
+                            <div className='flex items-center text-left'>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" className='rounded-full w-14 h-14' />
+                                <p className='pl-2 text-white'><span className='text-[#2BAD81]'>Alister Cook</span><br /> COO at Riverine</p>
+                            </div>
+
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div className='text-center bg-[#2C2946] p-10'>
+                            <div className='flex'>
+                                <FontAwesomeIcon icon={faQuoteLeft} style={{ color: "#2BAD81", }} />
+                            </div>
+
+                            <p className='text-white text-left'>Lorem ipsum dolor sit amet consectetur adipisienim numquam hic quas, assumenda, pariatur mollitia maiores ducimus? Eveniet aut error obcaecati, quis quod tempora! Suscipit totam culpa, est beatae vitae corrupti neque itaque eveniet, necessitatibus, recusandae aliquam debitis provident libero tenetur maiores veritatis quasi nam veniam.</p>
+                            <div className='flex justify-end'>
+                                <FontAwesomeIcon icon={faQuoteRight} style={{ color: "#2BAD81", }} />
+                            </div>
+                            <div className='flex items-center text-left'>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" className='rounded-full w-14 h-14' />
+                                <p className='pl-2 text-white'><span className='text-[#2BAD81]'>Alister Cook</span><br /> COO at Riverine</p>
+                            </div>
+
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
 
             </div>
 
