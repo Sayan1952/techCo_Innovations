@@ -1,14 +1,16 @@
-import React from 'react';
-import NavigationBar from '../NavigationBar/NavigationBar';
-import { Outlet } from 'react-router-dom';
+import React from "react";
+import NavigationBar from "../NavigationBar/NavigationBar";
+import { Outlet } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
-    return (
-        <div>
-            <NavigationBar></NavigationBar>
-            <Outlet/>
-        </div>
-    );
+  return (
+    <div>
+      <NavigationBar></NavigationBar>
+      <Outlet />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
