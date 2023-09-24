@@ -7,7 +7,7 @@ import image3 from "../assets/about-page-helping-at-diff-stages.00be5498.svg";
 const About = () => {
   return (
     <div>
-      <div className="flex bg-[#151C34] pt-28 pl-20 gap-4">
+      <div className="flex bg-[#151C34] py-20 pl-20 gap-4">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left w-1/2">
           <h1 className="text-6xl font-bold mb-4 text-[#2BAD81] pb-5">
@@ -91,7 +91,7 @@ const About = () => {
         </div>
       </div>
       {/* gap */}
-      <div className="flex bg-[#151C34] pt-28 pl-20 gap-2">
+      <div className="flex bg-[#151C34] py-28 p-20 gap-2">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">

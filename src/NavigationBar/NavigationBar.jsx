@@ -6,9 +6,9 @@ const NavigationBar = () => {
     <nav className="bg-[#151C34] p-4 m-0">
       <div className="flex items-center justify-between pr-10">
         <div className="flex items-center space-x-4">
-          <img src={logo} alt="Logo" className="h-16 pl-16" />
+          <img src={logo} alt="Logo" className="h-16 pl-28" />
         </div>
-        <ul className="flex space-x-4">
+        <ul className="flex gap-7 text-base pr-10">
           <li>
             <Link to="/" className="text-white hover:text-[#2BAD81]">
               Home

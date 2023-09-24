@@ -1,10 +1,11 @@
 import React from "react";
 import ContactForm from "../ContactForm/ContactForm";
+import contactimage from "../assets/contact-intro.607bb9b6.svg";
 
 const ContactUs = () => {
   return (
     <div>
-      <div className="flex bg-[#151C34] pt-10 pl-10 gap-2">
+      <div className="flex bg-[#151C34] pt-10 pl-20 gap-2">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
           <h1 className="text-5xl font-bold mb-4 text-white pb-5">
@@ -22,11 +23,9 @@ const ContactUs = () => {
 
         {/* Right Column */}
         <div className="flex-1">
-          <img
-            src="/path/to/your/image.jpg"
-            alt="Image"
-            className="w-full h-auto"
-          />
+          <div className="flex items-center justify-center py-4 h-full">
+            <img src={contactimage} alt="Image" className="w-64" />
+          </div>
         </div>
       </div>
       <ContactForm />

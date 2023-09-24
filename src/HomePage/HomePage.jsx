@@ -9,18 +9,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import ContactForm from "../ContactForm/ContactForm";
 import { Link } from "react-router-dom";
+import image1 from "../assets/home-intro.799e09af.svg";
+import image2 from "../assets/why-sazim.3557c4f0.svg";
+import image3 from "../assets/specialized-products.1cf3989b.svg";
 
 const HomePage = () => {
   return (
     <div>
-      <div className="flex bg-[#151C34] pt-10 pl-10 gap-2">
+      <div className="flex bg-[#151C34] pt-10 pl-20 gap-2">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
+          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5 leading-normal">
             <span className="text-white">EMPOWERED</span> BY <br />
             Tech Enthusiasts and Godlike Masterminds!
           </h1>
-          <p className="text-lg mb-4 text-white w-3/4">
+          <p className="text-lg mb-4 text-white w-3/4 leading-loose">
             Unlocking the Future with TechCo Innovations: Where IoT,
             Cybersecurity, Software, E-commerce, Mobile Apps, and ERP seamlessly
             converge into boundless possibilities!
@@ -34,28 +37,25 @@ const HomePage = () => {
 
         {/* Right Column */}
         <div className="flex-1">
-          <img
-            src="/path/to/your/image.jpg"
-            alt="Image"
-            className="w-full h-auto"
-          />
+          <div className="flex items-center justify-center">
+            <img src={image1} alt="Image" className="w-1/2" />
+          </div>
         </div>
       </div>
-      <div className="flex bg-[#151C34] pt-16 pl-10 gap-10">
+      {/* gap */}
+      <div className="flex bg-[#151C34] pt-28 pl-20 gap-10">
         {/* Left Column */}
-        <div className="flex-1 pl-16">
-          <img
-            src="/path/to/your/image.jpg"
-            alt="Image"
-            className="w-full h-auto"
-          />
+        <div className="flex-1">
+          <div className="flex items-center justify-center">
+            <img src={image2} alt="Image" className="w-1/2" />
+          </div>
         </div>
         {/* Right Column */}
         <div className="flex-1 p-8 text-left">
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
-            Why TechCo
+            Why TechCo?
           </h1>
-          <p className="text-lg mb-4 text-white w-3/4">
+          <p className="text-lg mb-4 text-white w-3/4 leading-loose">
             At TechCo Innovations, we transcend the ordinary, offering a
             comprehensive suite of services that redefine the technological
             landscape. We don't just keep up with the latest trends; we set
@@ -70,13 +70,14 @@ const HomePage = () => {
           </Link>
         </div>
       </div>
-      <div className="flex bg-[#151C34] pt-10 pl-10">
+      {/* gap */}
+      <div className="flex bg-[#151C34] py-28 pl-20">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
             Specialized Products
           </h1>
-          <p className="text-lg mb-4 text-white w-3/4">
+          <p className="text-lg mb-4 text-white w-3/4 leading-loose">
             TechCo Innovations isn't just a service provider; we're your
             strategic partner in technological advancement. Our expertise spans
             IoT, cybersecurity, software development, e-commerce solutions,
@@ -89,14 +90,12 @@ const HomePage = () => {
 
         {/* Right Column */}
         <div className="flex-1">
-          <img
-            src="/path/to/your/image.jpg"
-            alt="Image"
-            className="w-full h-auto"
-          />
+          <div className="flex items-center justify-center">
+            <img src={image3} alt="Image" className="w-1/2" />
+          </div>
         </div>
       </div>
-      <div className="flex-1 bg-[#151C34] pt-10 pl-10 pb-16">
+      <div className="flex-1 bg-[#151C34] pt-10 px-10 pb-16">
         <h1 className="text-5xl font-semibold text-[#2BAD81] pb-8">
           Client Testimonials
         </h1>
