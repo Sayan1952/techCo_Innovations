@@ -1,14 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/TCInno.png";
+
 const NavigationBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="bg-[#151C34] p-4 m-0">
-      <div className="flex items-center justify-between pr-10">
+      <div className="flex items-center justify-between  pr-10">
         <div className="flex items-center space-x-4">
-          <img src={logo} alt="Logo" className="h-16 pl-28" />
+          <img src={logo} alt="Logo" className="h-16 md:pl-28" />
         </div>
-        <ul className="flex gap-7 text-base pr-10">
+        {/* Toggle Button */}
+        <button
+          onClick={toggleMenu}
+          className="md:hidden text-white focus:outline-none"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            {isOpen ? (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            )}
+          </svg>
+        </button>
+        {/* Navigation Menu */}
+        <ul
+          className={`${
+            isOpen ? "block" : "hidden"
+          } md:flex-row md:flex flex-col flex-nowrap gap-7 text-base md:pr-10 mt-4 md:mt-0 absolute top-12 right-14 text-right`}
+        >
           <li>
             <Link to="/" className="text-white hover:text-[#2BAD81]">
               Home

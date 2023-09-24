@@ -1,0 +1,20 @@
+<svg width="417" height="346" viewBox="0 0 517 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path stroke="#875D8D" stroke-width="2" d="m176.897 432.039 12.463-9.436 9.337 12.333-12.463 9.435z"/>
+    <circle opacity=".04" cx="336" cy="243" r="162" fill="#fff"/>
+    <path stroke="#875D8D" stroke-width="2" d="M146 1h55v28h-55z"/>
+    <path stroke="#2BAD81" stroke-width="2" d="M146 66h55v16h-55z"/>
+    <path fill="#2BAD81" d="M248 0h57v30h-57z"/>
+    <path stroke="#875D8D" stroke-width="2" d="M300 115h55v28h-55z"/>
+    <path stroke="#2BAD81" stroke-width="2" d="M175 30v35M226 15v90M329 144v56M202 14h46M250 130h49"/>
+    <path d="M198.5 128.873 226 102l27.5 26.873L226 155l-27.5-26.127z" fill="#875D8D"/>
+    <path d="M301.5 225.873 329 199l27.5 26.873L329 252l-27.5-26.127z" fill="#2BAD81"/>
+    <path stroke="#fff" stroke-width="2" d="M1 177h271v206.575H1z"/>
+    <circle cx="17.48" cy="190.395" r="3.113" stroke="#fff" stroke-width="2"/>
+    <circle cx="30.847" cy="190.395" r="3.113" stroke="#fff" stroke-width="2"/>
+    <circle cx="44.215" cy="190.395" r="3.113" stroke="#fff" stroke-width="2"/>
+    <path stroke="#fff" stroke-width="2" d="M0 203.277h273M23 229h55"/>
+    <path stroke="#875D8D" stroke-width="2" d="M23 229h55M23 269h55M23 309h55M43 242h35M43 282h35M23 322h55M54 256h24M54 296h24M23 336h55"/>
+    <path stroke="#2BAD81" stroke-width="2" d="M94 228.582h156.097M94 337.576h156.097M94 291.819h87.982M94 256.345h39.734M144.141 256.345h105.956M94 242.463h78.521M94 321.639h24.597M94 306.215h78.521M94 277.424h122.985M181.98 242.463h35.004M129.004 321.639h38.788M182 306h35.003M226.445 242.463h23.651M178.195 321.639h71.899M226.445 306.215h23.651M226.445 277.424h23.651"/>
+    <path d="M409 92h88c10.493 0 19 8.507 19 19v207.742c0 10.493-8.507 19-19 19h-88c-10.493 0-19-8.507-19-19V111c0-10.493 8.507-19 19-19z" fill="#875D8D" fill-opacity=".2" stroke="#fff" stroke-width="2"/>
+    <path stroke="#875D8D" stroke-width="2" d="M407 134.871h61M407 292.871h92.481M407 226.541h52.126M407 175.116h23.541M436.707 175.116h62.775M407 154.994h46.521M407 269.768h14.573M407 247.408h46.521M407 205.673h72.864M459.125 154.994h20.738M427.738 269.768h22.98M459.125 247.408h20.738M485.469 154.994h14.012M456.883 269.768h42.597M485.469 247.408h14.012M485.469 205.673h14.012"/>
+</svg>
