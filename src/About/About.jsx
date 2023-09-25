@@ -7,13 +7,13 @@ import image3 from "../assets/about-page-helping-at-diff-stages.00be5498.svg";
 const About = () => {
   return (
     <div>
-      <div className="flex bg-[#151C34] py-20 pl-20 gap-4">
+      <div className="md:flex bg-[#151C34] py-20 md:pl-20 gap-4">
         {/* Left Column */}
-        <div className="flex-1 p-8 text-left w-1/2">
+        <div className="flex-1 p-8 text-left">
           <h1 className="text-6xl font-bold mb-4 text-[#2BAD81] pb-5">
             <span className="text-white">Seamless</span> Integration
           </h1>
-          <p className="text-xl mb-4 text-white w-3/4 leading-loose">
+          <p className="text-xl mb-4 text-white md:w-3/4 leading-loose">
             Our services don't exist in isolation; they seamlessly integrate to
             provide you with holistic solutions. Whether it's your IoT devices
             communicating flawlessly or your software and ERP systems working in
@@ -29,7 +29,7 @@ const About = () => {
         </div>
       </div>
       {/* gap  */}
-      <div className="flex bg-[#151C34] pt-28 pl-20 gap-4">
+      <div className="md:flex bg-[#151C34] pt-28 md:pl-20 gap-4">
         {/* Left Column */}
         <div className="flex-1">
           <div className="flex justify-center">
@@ -41,7 +41,7 @@ const About = () => {
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
             Future-Ready Solutions
           </h1>
-          <p className="text-lg mb-4 text-white w-3/4 leading-loose">
+          <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
             We don't just address today's challenges; we anticipate tomorrow's
             opportunities. Our forward-looking solutions prepare your business
             for the future, helping you stay agile and adaptive
@@ -49,13 +49,13 @@ const About = () => {
         </div>
       </div>
       {/* gap */}
-      <div className="flex bg-[#151C34] pt-28 pl-20 gap-4">
+      <div className="md:flex bg-[#151C34] pt-28 md:pl-20 gap-4">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
             Unparalleled Expertise
           </h1>
-          <p className="text-lg mb-4 text-white w-3/4 leading-loose">
+          <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
             Our team comprises experts with deep knowledge in their respective
             fields. From certified cybersecurity professionals to experienced
             software engineers, our collective knowledge ensures top-tier
@@ -71,7 +71,7 @@ const About = () => {
         </div>
       </div>
       {/* gap */}
-      <div className="flex bg-[#151C34] pt-28 pl-20 gap-10">
+      <div className="md:flex bg-[#151C34] pt-28 md:pl-20 gap-10">
         {/* Left Column */}
         <div className="flex-1">
           <div className="flex justify-center">
@@ -83,7 +83,7 @@ const About = () => {
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
             End-to-End Services
           </h1>
-          <p className="text-lg mb-4 text-white w-3/4 leading-loose">
+          <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
             Whether it's securing your digital assets, building a user-friendly
             app, optimizing your e-commerce platform, or streamlining your
             operations with ERP, we have you covered from concept to execution.
@@ -91,7 +91,7 @@ const About = () => {
         </div>
       </div>
       {/* gap */}
-      <div className="flex bg-[#151C34] py-28 p-20 gap-2">
+      <div className="md:flex bg-[#151C34] py-28 md:p-20 gap-2">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
