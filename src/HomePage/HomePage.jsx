@@ -18,7 +18,7 @@ import TechCard from "../TechCards/TechCard";
 const HomePage = () => {
   return (
     <div>
-      <div className="flex bg-[#151C34] pt-10 pl-20 gap-2">
+      <div className="md:flex bg-[#151C34] pt-10 md:pl-20 gap-2">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5 leading-normal">
@@ -39,13 +39,13 @@ const HomePage = () => {
 
         {/* Right Column */}
         <div className="flex-1">
-          <div className="flex items-center justify-center">
+          <div className="md:flex items-center justify-center hidden ">
             <img src={image1} alt="Image" className="w-1/2" />
           </div>
         </div>
       </div>
       {/* gap */}
-      <div className="flex bg-[#151C34] pt-28 pl-20 gap-10">
+      <div className="md:flex bg-[#151C34] pt-28 md:pl-20 gap-10">
         {/* Left Column */}
         <div className="flex-1">
           <div className="flex items-center justify-center">
@@ -57,7 +57,7 @@ const HomePage = () => {
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
             Why TechCo?
           </h1>
-          <p className="text-lg mb-4 text-white w-3/4 leading-loose">
+          <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
             At TechCo Innovations, we transcend the ordinary, offering a
             comprehensive suite of services that redefine the technological
             landscape. We don't just keep up with the latest trends; we set
@@ -73,13 +73,13 @@ const HomePage = () => {
         </div>
       </div>
       {/* gap */}
-      <div className="flex bg-[#151C34] py-28 pl-20">
+      <div className="md:flex bg-[#151C34] py-28 md:pl-20">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
           <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
             Specialized Products
           </h1>
-          <p className="text-lg mb-4 text-white w-3/4 leading-loose">
+          <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
             TechCo Innovations isn't just a service provider; we're your
             strategic partner in technological advancement. Our expertise spans
             IoT, cybersecurity, software development, e-commerce solutions,
@@ -106,7 +106,7 @@ const HomePage = () => {
           Client Testimonials
         </h1>
         <Swiper
-          slidesPerView={3}
+          slidesPerView={1}
           spaceBetween={30}
           loop={true}
           pagination={{
@@ -117,7 +117,7 @@ const HomePage = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="text-center bg-[#2C2946] p-10">
+            <div className="text-center bg-[#2C2946] p-10 w-60 md:w-auto md:mx-96 rounded mx-auto">
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
@@ -153,7 +153,7 @@ const HomePage = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="text-center bg-[#2C2946] p-10">
+            <div className="text-center bg-[#2C2946] p-10 w-60 md:w-auto md:mx-96 rounded mx-auto">
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
@@ -189,7 +189,7 @@ const HomePage = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="text-center bg-[#2C2946] p-10">
+            <div className="text-center bg-[#2C2946] p-10 w-60 md:w-auto md:mx-96 rounded mx-auto">
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
@@ -225,7 +225,7 @@ const HomePage = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="text-center bg-[#2C2946] p-10">
+            <div className="text-center bg-[#2C2946] p-10 w-60 md:w-auto md:mx-96 rounded mx-auto">
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
