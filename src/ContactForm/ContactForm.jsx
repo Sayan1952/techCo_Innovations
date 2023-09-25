@@ -21,7 +21,7 @@ function ContactForm() {
   return (
     <div className="flex justify-center items-center py-10 bg-[#151C34]">
       <form
-        className="w-3/5 p-8 rounded-lg text-left bg-[#2C2946] text-white"
+        className="md:w-3/5 w-4/5 p-8 rounded-lg text-left bg-[#2C2946] text-white"
         onSubmit={handleSubmit}
       >
         <div className="mb-4">

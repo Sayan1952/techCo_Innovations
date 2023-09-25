@@ -11,9 +11,11 @@ const NavigationBar = () => {
 
   return (
     <nav className="bg-[#151C34] p-4 m-0">
-      <div className="flex items-center justify-between  pr-10">
+      <div className="flex items-center justify-between  md:pr-10">
         <div className="flex items-center space-x-4">
-          <img src={logo} alt="Logo" className="h-16 md:pl-28" />
+          <Link to="/">
+            <img src={logo} alt="Logo" className="h-16 md:pl-28" />
+          </Link>
         </div>
         {/* Toggle Button */}
         <button
@@ -48,7 +50,7 @@ const NavigationBar = () => {
         <ul
           className={`${
             isOpen ? "block" : "hidden"
-          } md:flex-row md:flex flex-col flex-nowrap gap-7 text-base md:pr-10 mt-4 md:mt-0 absolute pr-2 top-12 right-14 text-right`}
+          } md:flex-row md:flex flex-col flex-nowrap gap-7 text-base md:pr-10 mt-4 md:mt-0 absolute pr-2 top-12 right-2 text-right`}
         >
           <li>
             <Link to="/" className="text-white hover:text-[#2BAD81]">
