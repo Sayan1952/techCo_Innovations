@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,6 +12,8 @@ import { Link } from "react-router-dom";
 import image1 from "../assets/home-intro.799e09af.svg";
 import image2 from "../assets/why-sazim.3557c4f0.svg";
 import image3 from "../assets/specialized-products.1cf3989b.svg";
+import TechCards from "../TechCards/TechCards";
+import TechCard from "../TechCards/TechCard";
 
 const HomePage = () => {
   return (
@@ -94,6 +96,10 @@ const HomePage = () => {
             <img src={image3} alt="Image" className="w-1/2" />
           </div>
         </div>
+      </div>
+      {/* gap */}
+      <div>
+        <TechCard />
       </div>
       <div className="flex-1 bg-[#151C34] pt-10 px-10 pb-16">
         <h1 className="text-5xl font-semibold text-[#2BAD81] pb-8">
