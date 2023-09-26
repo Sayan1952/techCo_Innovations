@@ -53,17 +53,17 @@ const NavigationBar = () => {
           } md:flex-row md:flex flex-col flex-nowrap gap-7 text-base md:pr-10 mt-4 md:mt-0 absolute pr-2 top-12 right-2 text-right`}
         >
           <li>
-            <Link to="/" className="text-white hover:text-[#2BAD81]">
+            <Link to="/" className="text-white hover:text-[#4682a9]">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="text-white hover:text-[#2BAD81]">
+            <Link to="/about" className="text-white hover:text-[#4682a9]">
               About Us
             </Link>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-[#2BAD81]">
+            <a href="#" className="text-white hover:text-[#4682a9]">
               Services
             </a>
           </li>
@@ -71,7 +71,7 @@ const NavigationBar = () => {
             <Link
               to="/contact"
               href="#"
-              className="text-white hover:text-[#2BAD81]"
+              className="text-white hover:text-[#4682a9]"
             >
               Contact Us
             </Link>

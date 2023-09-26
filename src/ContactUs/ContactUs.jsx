@@ -12,7 +12,7 @@ const ContactUs = () => {
             Join hands with us to unlock a world of possibilities and elevate
             your <br />
             business to new heights. <br />
-            <span className="text-[#487a78]">Contact</span> us today to embark
+            <span className="text-[#4682a9]">Contact</span> us today to embark
             on a <br />
             transformative journey into the future of technology
           </h1>

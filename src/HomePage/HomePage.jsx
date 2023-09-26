@@ -21,7 +21,7 @@ const HomePage = () => {
       <div className="md:flex bg-[#151C34] pt-10 md:pl-20 gap-2">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5 leading-normal">
+          <h1 className="text-5xl font-bold mb-4 text-[#4682a9] pb-5 leading-normal">
             <span className="text-white">EMPOWERED</span> BY <br />
             Tech Enthusiasts and Godlike Masterminds!
           </h1>
@@ -54,7 +54,7 @@ const HomePage = () => {
         </div>
         {/* Right Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
+          <h1 className="text-5xl font-bold mb-4 text-[#4682a9] pb-5">
             Why TechCo?
           </h1>
           <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
@@ -76,7 +76,7 @@ const HomePage = () => {
       <div className="md:flex bg-[#151C34] py-28 md:pl-20">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
+          <h1 className="text-5xl font-bold mb-4 text-[#4682a9] pb-5">
             Specialized Products
           </h1>
           <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
@@ -102,7 +102,7 @@ const HomePage = () => {
         <TechCard />
       </div>
       <div className="flex-1 bg-[#151C34] pt-10 px-10 pb-16">
-        <h1 className="text-5xl font-semibold text-[#2BAD81] pb-8">
+        <h1 className="text-5xl font-semibold text-[#4682a9] pb-8">
           Client Testimonials
         </h1>
         <Swiper
@@ -121,7 +121,7 @@ const HomePage = () => {
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
-                  style={{ color: "#2BAD81" }}
+                  style={{ color: "#4682a9" }}
                 />
               </div>
 
@@ -136,7 +136,7 @@ const HomePage = () => {
               <div className="flex justify-end">
                 <FontAwesomeIcon
                   icon={faQuoteRight}
-                  style={{ color: "#2BAD81" }}
+                  style={{ color: "#4682a9" }}
                 />
               </div>
               <div className="flex items-center text-left">
@@ -146,7 +146,7 @@ const HomePage = () => {
                   className="rounded-full w-14 h-14"
                 />
                 <p className="pl-2 text-white">
-                  <span className="text-[#2BAD81]">Alister Cook</span>
+                  <span className="text-[#4682a9]">Alister Cook</span>
                   <br /> COO at Riverine
                 </p>
               </div>
@@ -157,7 +157,7 @@ const HomePage = () => {
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
-                  style={{ color: "#2BAD81" }}
+                  style={{ color: "#4682a9" }}
                 />
               </div>
 
@@ -172,7 +172,7 @@ const HomePage = () => {
               <div className="flex justify-end">
                 <FontAwesomeIcon
                   icon={faQuoteRight}
-                  style={{ color: "#2BAD81" }}
+                  style={{ color: "#4682a9" }}
                 />
               </div>
               <div className="flex items-center text-left">
@@ -182,7 +182,7 @@ const HomePage = () => {
                   className="rounded-full w-14 h-14"
                 />
                 <p className="pl-2 text-white">
-                  <span className="text-[#2BAD81]">Alister Cook</span>
+                  <span className="text-[#4682a9]">Alister Cook</span>
                   <br /> COO at Riverine
                 </p>
               </div>
@@ -193,7 +193,7 @@ const HomePage = () => {
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
-                  style={{ color: "#2BAD81" }}
+                  style={{ color: "#4682a9" }}
                 />
               </div>
 
@@ -208,7 +208,7 @@ const HomePage = () => {
               <div className="flex justify-end">
                 <FontAwesomeIcon
                   icon={faQuoteRight}
-                  style={{ color: "#2BAD81" }}
+                  style={{ color: "#4682a9" }}
                 />
               </div>
               <div className="flex items-center text-left">
@@ -218,7 +218,7 @@ const HomePage = () => {
                   className="rounded-full w-14 h-14"
                 />
                 <p className="pl-2 text-white">
-                  <span className="text-[#2BAD81]">Alister Cook</span>
+                  <span className="text-[#4682a9]">Alister Cook</span>
                   <br /> COO at Riverine
                 </p>
               </div>
@@ -229,7 +229,7 @@ const HomePage = () => {
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
-                  style={{ color: "#2BAD81" }}
+                  style={{ color: "#4682a9" }}
                 />
               </div>
 
@@ -244,7 +244,7 @@ const HomePage = () => {
               <div className="flex justify-end">
                 <FontAwesomeIcon
                   icon={faQuoteRight}
-                  style={{ color: "#2BAD81" }}
+                  style={{ color: "#4682a9" }}
                 />
               </div>
               <div className="flex items-center text-left">
@@ -254,7 +254,7 @@ const HomePage = () => {
                   className="rounded-full w-14 h-14"
                 />
                 <p className="pl-2 text-white">
-                  <span className="text-[#2BAD81]">Alister Cook</span>
+                  <span className="text-[#4682a9]">Alister Cook</span>
                   <br /> COO at Riverine
                 </p>
               </div>

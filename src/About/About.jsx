@@ -10,7 +10,7 @@ const About = () => {
       <div className="md:flex bg-[#151C34] py-20 md:pl-20 gap-4">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-6xl font-bold mb-4 text-[#2BAD81] pb-5">
+          <h1 className="text-6xl font-bold mb-4 text-[#4682a9] pb-5">
             <span className="text-white">Seamless</span> Integration
           </h1>
           <p className="text-xl mb-4 text-white md:w-3/4 leading-loose">
@@ -38,7 +38,7 @@ const About = () => {
         </div>
         {/* Right Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
+          <h1 className="text-5xl font-bold mb-4 text-[#4682a9] pb-5">
             Future-Ready Solutions
           </h1>
           <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
@@ -52,7 +52,7 @@ const About = () => {
       <div className="md:flex bg-[#151C34] pt-28 md:pl-20 gap-4">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
+          <h1 className="text-5xl font-bold mb-4 text-[#4682a9] pb-5">
             Unparalleled Expertise
           </h1>
           <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
@@ -80,7 +80,7 @@ const About = () => {
         </div>
         {/* Right Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
+          <h1 className="text-5xl font-bold mb-4 text-[#4682a9] pb-5">
             End-to-End Services
           </h1>
           <p className="text-lg mb-4 text-white md:w-3/4 leading-loose">
@@ -94,7 +94,7 @@ const About = () => {
       <div className="md:flex bg-[#151C34] py-28 md:p-20 gap-2">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#2BAD81] pb-5">
+          <h1 className="text-5xl font-bold mb-4 text-[#4682a9] pb-5">
             Security First
           </h1>
           <p className="text-lg mb-4 text-white w-3/4 leading-loose">
