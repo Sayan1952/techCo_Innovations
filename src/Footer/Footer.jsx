@@ -1,6 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Assuming you're using react-router-dom for routing
+import { Link } from "react-router-dom";
 import logo from "../assets/TCInno.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faTwitter,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   // Function to generate a random address in Dhaka
@@ -45,32 +51,20 @@ function Footer() {
         {/* 4th Column: Social Media Links */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 justify-center">
             <li>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/facebook-icon.png"
-                  alt="Facebook"
-                  className="w-6 h-6"
-                />
+                <FontAwesomeIcon icon={faFacebook} />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/twitter-icon.png"
-                  alt="Twitter"
-                  className="w-6 h-6"
-                />
+                <FontAwesomeIcon icon={faTwitter} />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/instagram-icon.png"
-                  alt="Instagram"
-                  className="w-6 h-6"
-                />
+                <FontAwesomeIcon icon={faInstagram} />
               </a>
             </li>
           </ul>

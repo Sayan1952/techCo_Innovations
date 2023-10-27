@@ -50,7 +50,7 @@ const NavigationBar = () => {
         <ul
           className={`${
             isOpen ? "block" : "hidden"
-          } md:flex-row md:flex flex-col flex-nowrap gap-7 text-base md:pr-10 mt-4 md:mt-0 absolute pr-2 top-12 right-2 text-right`}
+          } md:flex-row md:flex items-center flex-col flex-nowrap gap-7  text-base md:pr-10 mt-4 md:mt-0 absolute pr-2 top-12 right-2 text-right`}
         >
           <li>
             <Link to="/" className="text-white hover:text-[#4682a9]">

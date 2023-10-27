@@ -25,7 +25,7 @@ function ContactForm() {
         onSubmit={handleSubmit}
       >
         <div className="mb-4">
-          <label htmlFor="name" className="block font-medium text-[#487a78]">
+          <label htmlFor="name" className="block font-medium text-[#4682a9]">
             Your Name <span className="text-red-500">*</span>
           </label>
           <input
@@ -39,7 +39,7 @@ function ContactForm() {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="email" className="block font-medium text-[#487a78]">
+          <label htmlFor="email" className="block font-medium text-[#4682a9]">
             Your Email <span className="text-red-500">*</span>
           </label>
           <input
@@ -53,7 +53,7 @@ function ContactForm() {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="message" className="block font-medium text-[#487a78]">
+          <label htmlFor="message" className="block font-medium text-[#4682a9]">
             Your Message <span className="text-red-500">*</span>
           </label>
           <textarea
@@ -68,7 +68,7 @@ function ContactForm() {
         <div className="text-center">
           <button
             type="submit"
-            className="bg-[#3E6866] hover:bg-[#487a78] text-white font-medium py-2 px-4 rounded-full focus:outline-none focus:ring focus:ring-blue-200"
+            className="bg-[#4682a9] hover:bg-[#5796c0] text-white font-medium py-2 px-4 rounded-full focus:outline-none focus:ring focus:ring-blue-200"
           >
             Send
           </button>

@@ -18,12 +18,12 @@ import TechCard from "../TechCards/TechCard";
 const HomePage = () => {
   return (
     <div>
-      <div className="md:flex bg-[#151C34] pt-10 md:pl-20 gap-2">
+      <div className="md:flex bg-[#151C34] pt-10 md:pl-20 gap-2 font-roboto">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-[#4682a9] pb-5 leading-normal">
-            <span className="text-white">EMPOWERED</span> BY <br />
-            Tech Enthusiasts and Godlike Masterminds!
+          <h1 className="text-4xl font-bold mb-4 text-[#4682a9] pb-5 leading-normal">
+            <span className="text-white">EMPOWERED</span> BY Tech Enthusiasts
+            and <br /> Godlike Masterminds!
           </h1>
           <p className="text-lg mb-4 text-white w-3/4 leading-loose">
             Unlocking the Future with TechCo Innovations: Where IoT,
@@ -31,7 +31,7 @@ const HomePage = () => {
             converge into boundless possibilities!
           </p>
           <Link to="/contact">
-            <button className="mt-2 bg-[#151C34] text-white w-60 py-3 text-xl font-bold border-2 border-[#875D8D] px-4 py-2 hover:bg-[#875D8D]">
+            <button className="mt-2 bg-[#151C34] text-white w-60 py-3 text-xl font-bold border-2 border-[#4682a9] px-4 py-2 hover:bg-[#4682a9]">
               Contact Us
             </button>
           </Link>
@@ -66,7 +66,7 @@ const HomePage = () => {
             tech world.
           </p>
           <Link to="/about">
-            <button className="mt-2 bg-[#151C34] text-white w-60 py-3 text-xl font-bold border-2 border-[#875D8D] px-4 py-2 hover:bg-[#875D8D]">
+            <button className="mt-2 bg-[#151C34] text-white w-60 py-3 text-xl font-bold border-2 border-[#4682a9] px-4 py-2 hover:bg-[#4682a9]">
               Learn More
             </button>
           </Link>
@@ -85,7 +85,7 @@ const HomePage = () => {
             IoT, cybersecurity, software development, e-commerce solutions,
             mobile app development, and ERP services.
           </p>
-          <button className="mt-2 bg-[#151C34] text-white w-60 py-3 text-xl font-bold border-2 border-[#875D8D] px-4 py-2 hover:bg-[#875D8D]">
+          <button className="mt-2 bg-[#151C34] text-white w-60 py-3 text-xl font-bold border-2 border-[#4682a9] px-4 py-2 hover:bg-[#4682a9]">
             Learn More
           </button>
         </div>
@@ -262,7 +262,7 @@ const HomePage = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <h1 className="text-5xl text-center text-[#487a78] bg-[#151C34] font-bold pt-10">
+      <h1 className="text-5xl text-center text-[#4682a9] bg-[#151C34] font-bold pt-10">
         Tell us how we can help you
       </h1>
       <ContactForm />
