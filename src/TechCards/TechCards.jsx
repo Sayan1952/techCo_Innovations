@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const TechCards = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <div className="flex justify-center bg-[#151C34]">
       <div className="w-96 text-center p-4 bg-[#2C2946]">

@@ -10,7 +10,7 @@ const TechCard = () => {
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
-  console.log(data);
+  // console.log(data);
   return (
     <div className="grid md:grid-cols-4 grid-cols-2 gap-y-7 bg-[#151C34] gap-x-2 md:gap-x-0 px-2 pb-2">
       {data.map((dt) => (

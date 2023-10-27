@@ -8,7 +8,7 @@ const ContactUs = () => {
       <div className="md:flex bg-[#151C34] pt-10 md:pl-20 gap-2">
         {/* Left Column */}
         <div className="flex-1 p-8 text-left">
-          <h1 className="text-5xl font-bold mb-4 text-white pb-5">
+          <h1 className="text-4xl font-bold mb-4 text-white pb-5">
             Join hands with us to unlock a world of possibilities and elevate
             your <br />
             business to new heights. <br />

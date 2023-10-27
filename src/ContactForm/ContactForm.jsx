@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
@@ -12,9 +13,24 @@ function ContactForm() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // Add your form submission logic here
+    const response = await fetch("https://formspree.io/f/xknlyykn", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      console.log("Form submitted successfully");
+      // Clear the form
+      setFormData({ name: "", email: "", message: "" });
+    } else {
+      console.error("Form submission failed");
+    }
     console.log("Form data submitted:", formData);
   };
 
